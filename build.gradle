@@ -19,10 +19,10 @@ allprojects {
         maven { url "https://www.jitpack.io" }
         google()
         maven {
-            url = "https://maven.pkg.github.com/BackPackerDz/react-native-to-native-tuto/"
+            url = "https://maven.pkg.github.com/khamdannahari/BridgeReactLibPackages/"
             credentials {
-                username = System.getenv('GITHUB_USER')
-                password = System.getenv('GITHUB_TOKEN')
+                username = 'khamdannahari.id@gmail.com'
+                password = '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'
             }
         }
         mavenCentral()
